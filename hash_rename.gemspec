@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = HashRename::VERSION
   spec.authors       = ["hisaichi5518"]
   spec.email         = ["hisaichi5518@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Added rename method for Hash class.}
+  spec.description   = %q{Added rename method for Hash class.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
