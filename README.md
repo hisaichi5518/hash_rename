@@ -1,6 +1,17 @@
 # HashRename
 
-TODO: Write a gem description
+Added rename method for Hash class.
+
+```ruby
+require "hash_rename"
+
+hoge     = {test_hoge: "hogehoge"}
+new_hoge = hoge.rename(/_/, "-")
+
+p hoge     #=> {:test_hoge => "hogehoge"}
+p new_hoge #=> {:"test-hoge" => "hogehoge"}
+
+```
 
 ## Installation
 
